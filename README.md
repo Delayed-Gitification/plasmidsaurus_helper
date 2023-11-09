@@ -18,7 +18,7 @@ The only required input is the FASTQ (not FASTA!) file (option -i/--input). Opti
 
 Optionally, you can specify a custom output fasta name (option -o/--output). You cannot use this if providing a list of fastqs.
 
-To provide the start sequence of your plasmid map, use option -s/--start_sequence (use a unique sequence, eg 10-20 nt)
+To provide the start sequence of your plasmid map, use option -s/--start_sequence (use a unique sequence, eg the first 10-20 nt of your plasmid map)
 
 By default, a phred score of 20 (1% error rate) is used as the threshold for changing bases to lower-case. But this can be altered with option -t/--low_confidence_threshold
 
