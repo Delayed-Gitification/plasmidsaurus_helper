@@ -22,4 +22,10 @@ To provide the start sequence of your plasmid map, use option -s/--start_sequenc
 
 By default, a phred score of 20 (1% error rate) is used as the threshold for changing bases to lower-case. But this can be altered with option -t/--low_confidence_threshold
 
+eg run 
+
+```plasmidsaurus_helper -i sequencing_results/*.fastq -s atcgcgcgaattcga```
+
+This will automatically find all the fastq files in the your sequencing results folder and process them as described above
+
 Happy cloning :)
