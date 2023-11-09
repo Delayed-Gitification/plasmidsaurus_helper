@@ -14,9 +14,9 @@ Install from pypi:
 
 ## Usage
 
-The only required input is the FASTQ (not FASTA!) file (option -i/--input)
+The only required input is the FASTQ (not FASTA!) file (option -i/--input). Optionally a list of fastqs can be provided (eg using * pattern matching).
 
-Optionally, you can specify a custom output fasta name (option -o/--output)
+Optionally, you can specify a custom output fasta name (option -o/--output). You cannot use this if providing a list of fastqs.
 
 To provide the start sequence of your plasmid map, use option -s/--start_sequence (use a unique sequence, eg 10-20 nt)
 
