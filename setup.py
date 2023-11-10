@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="plasmidsaurus_helper",
-    version="0.1",
+    version="0.2",
     description="A convenience tool for identifying low-confidence bases and reindexing fasta files from "
                 "nanopore plasmid sequencing tools such as plasmidsaurus, full circle etc",
     author="Oscar Wilkins",

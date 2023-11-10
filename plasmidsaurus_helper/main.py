@@ -102,6 +102,9 @@ def main():
                     rc_seq2 = rev_c(seq2)
                     final_seq = rc_seq2[rc_matches[0]:] + rc_seq2[:rc_matches[0]]
                     break
+            else:
+                final_seq = seq2_backup
+                break
 
         with open(out_name, 'w') as file:
             print('Writing out final sequence to ' + out_name)
